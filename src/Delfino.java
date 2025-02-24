@@ -1,4 +1,6 @@
-public class Delfino extends Animale{
+import interfaces.Nuotante;
+
+public class Delfino extends Animale implements Nuotante{
     
     public void verso(){
         System.out.println("Verso delfino");
@@ -6,6 +8,10 @@ public class Delfino extends Animale{
 
     public void mangia(){
         System.out.println("Sta mangiando cibo tipico dei delfini");
+    }
+
+    public void nuota(){
+        System.out.println("Sta nuotando");
     }
 
 }
