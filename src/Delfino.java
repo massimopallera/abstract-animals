@@ -1,6 +1,6 @@
 import interfaces.Nuotante;
 
-public class Delfino extends Animale implements Nuotante{
+public class Delfino extends AbstractAnimale implements Nuotante{
     
     public void verso(){
         System.out.println("Verso delfino");

@@ -1,4 +1,4 @@
-public class Cane extends Animale {
+public class Cane extends AbstractAnimale {
     
     public void verso(){
         System.out.println("baubau");

@@ -4,10 +4,11 @@ import interfaces.Volatile;
 public class App {
     
     public static void faiVolare(Volatile animale){
-        System.out.println("Sta volando");
+        animale.vola();
+
     }
     public static void faiNuotare(Nuotante animale){
-        System.out.println("Sta nuotando");
+        animale.nuota();
     }
 
     public static void main(String[] args) {

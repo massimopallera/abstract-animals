@@ -1,6 +1,6 @@
 import interfaces.Volatile;
 
-public class Aquila extends Animale implements Volatile{
+public class Aquila extends AbstractAnimale implements Volatile{
 
     public void verso(){
         System.out.println("Verso aquila");

@@ -1,6 +1,6 @@
 import interfaces.Volatile;
 
-public class Passerotto extends Animale implements Volatile{
+public class Passerotto extends AbstractAnimale implements Volatile{
     
     public void verso(){
         System.out.println("Tipico verso da passerotto");
